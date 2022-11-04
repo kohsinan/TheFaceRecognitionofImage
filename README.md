@@ -28,7 +28,7 @@ Add image:選擇添加照片(預設D槽)
 Show known image:顯示已知圖庫
 (有預設照片2張)
 
-Show unknown image:顯示未知圖庫
+Show unknown image:顯示未知圖庫                
 (有預設照片3張)
 
 Comparation: 比對已知與未知圖庫
@@ -37,9 +37,9 @@ Please-remove-old-results-before-show new-results:顯示新的動作結果時，
 
 ![GUI介面](images/GUI.png)
 
-添加照片到已知資料庫
+添加照片到已知資料庫    
 
-![添加照片到已知資料庫](images/SuccessAddImg.png)
+![添加照片到已知資料庫](images/SuccessAddImg.png)  
 
 顯示已知資料庫
 
@@ -59,7 +59,7 @@ Please-remove-old-results-before-show new-results:顯示新的動作結果時，
 
 顯示新的輸出內容時，先清除原有的內容 
 
-![Remove](images/Remove.png)
+<img src="images/Remove.png" alt="drawing" width="250"/>
 
 在此次設計，僅僅使用一張圖做為一個人的資料庫，所以在分辨上容易造成誤判，所以非常仰賴自訂義的門檻值作為篩選，但調低門檻值時，卻會造成原先能辨別的圖片，變成辨識不出來。由此可知，單張圖片的人臉特徵值不夠強，無法準確的分辨出不同的人臉，所以應該增加相同人臉的資料庫，增加其特徵的強度，才能達到更好、更精準的分辨。
 對於此次專題的未來發展，在完成資料庫的強化後，因為圖片是靜態，所以希望朝影像識別、動態的方向作為延伸，達到更即時、使用層面更廣的方向前進。
